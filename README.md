@@ -1,6 +1,12 @@
 # AMT-SIT
 
-Dataset and code for our WWW 2020 paper "Anchored Model Transfer and Soft Instance Transfer for Cross-Task Cross-Domain Learning: A Study Through Aspect-Level Sentiment Classification"
+Code and dataset for our WWW 2020 paper "Anchored Model Transfer and Soft Instance Transfer for Cross-Task Cross-Domain Learning: A Study Through Aspect-Level Sentiment Classification"
+
+You can download the paper via: [[Github]](paper.pdf).
+
+## Abstract
+
+Supervised learning relies heavily on readily available labelled data to infer an effective classification function. However, proposed methods under the supervised learning paradigm are faced with the scarcity of labelled data within domains, and are not generalized enough to adapt to other tasks. Transfer learning has proved to be a worthy choice to address these issues, by allowing knowledge to be shared across domains and tasks. In this paper, we propose two transfer learning methods Anchored Model Transfer (AMT) and Soft Instance Transfer (SIT), which are both based on multi-task learning, and account for model transfer and instance transfer, and can be combined into a common framework. We demonstrate the effectiveness of AMT and SIT for aspect-level sentiment classification showing the competitive performance against baseline models on benchmark datasets. Interestingly, we show that the integration of both methods AMT+SIT achieves state-of-the-art performance on the same task.
 
 ## Requirement
 
@@ -16,8 +22,8 @@ Dataset and code for our WWW 2020 paper "Anchored Model Transfer and Soft Instan
 An easy way to install this code with anaconda environment:
 
 ```bash
-conda create -n repwalk python=3.6
-conda activate repwalk
+conda create -n amtsit python=3.6
+conda activate amtsit
 pip install -r requirements.txt
 ```
 
@@ -48,6 +54,14 @@ If this work is helpful, please cite as:
   year={2020}
 }
 ```
+
+## Acknowledgments
+
+This work is supported partly by the National Natural Science Foundation of China, by the Beijing Advanced Innovation Center for Big Data and Brain Computing (BDBC), by State Key Laboratory of Software Development Environment, by the Beijing S&T Committee and by the Fundamental Research Funds for the Central Universities.
+
+## Contact
+
+hiyouga [AT] buaa [DOT] edu [DOT] cn
 
 ## License
 
