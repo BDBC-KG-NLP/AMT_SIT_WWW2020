@@ -2,7 +2,7 @@
 
 Code and dataset for our WWW 2020 paper "Anchored Model Transfer and Soft Instance Transfer for Cross-Task Cross-Domain Learning: A Study Through Aspect-Level Sentiment Classification"
 
-You can download the paper via: [[Github]](paper.pdf).
+You can download the paper via: [[Github]](paper.pdf) [[DOI]](https://doi.org/10.1145/3366423.3380034).
 
 ## Abstract
 
